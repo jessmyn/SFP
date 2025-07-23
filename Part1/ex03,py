@@ -1,0 +1,17 @@
+# Original text
+string1 = 'MaRviN THE bOt'
+
+#convert to lowercase
+string_lower = string1.lower()
+
+#convert to uppercase 
+string_upper = string1.upper()
+
+#remove space
+string_nospace = ''.join(string1.split())
+
+# Print results
+print(string1)
+print(string_lower)
+print(string_upper)
+print(string_nospace)
